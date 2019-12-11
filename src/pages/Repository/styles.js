@@ -11,7 +11,7 @@ export const Loading = styled.div`
 `;
 
 export const Filter = styled.div`
-  margin: 5px auto;
+  margin: 10px auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -109,5 +109,19 @@ export const IssueList = styled.ul`
         color: #999;
       }
     }
+  }
+`;
+
+export const Pages = styled.div`
+  margin: 15px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  button {
+    padding: 5px;
+    margin: 5px 30px;
+    color: #000;
+    border-radius: 4px;
   }
 `;
