@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import api from '../../services/api';
 
 import Container from '../../components/Container';
+
 import { Loading, Owner, IssueList, Filter, FilterButton, Pages } from './styles';
 
 export default class Repository extends Component {
